@@ -1,37 +1,46 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
 
 const ServiceCard = ({ image, title, description }) => {
   return (
-    <div className="group bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-xl transition-all duration-300">
-      
+    <div className="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+
       {/* Image */}
-      <div className="relative h-56 overflow-hidden">
+      <div className="relative h-52 overflow-hidden">
+
         <img
           src={image}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent"></div>
+        {/* Image Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent"></div>
+
       </div>
 
+
       {/* Content */}
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-slate-800 mb-3 ">
+      <div className="p-5">
+
+        <h3 className="text-xl font-bold text-slate-800">
           {title}
         </h3>
 
-        <p className="text-slate-500 text-sm leading-6 mb-5 line-clamp-3">
+        <p className="mt-3 text-sm text-slate-500 leading-6">
           {description}
         </p>
 
-        <button className="inline-flex items-center gap-2 text-teal-700 font-semibold text-sm group-hover:gap-3 transition-all duration-300">
-          Learn More
-          <FaArrowRight size={13} />
-        </button>
+        {/* Treatment label */}
+        <div className="mt-5 pt-4 border-t border-slate-100">
+
+          <span className="text-xs font-semibold uppercase tracking-wide text-teal-700">
+            Chiropractic Treatment
+          </span>
+
+        </div>
+
       </div>
+
     </div>
   );
 };

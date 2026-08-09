@@ -5,6 +5,9 @@ import Services from '../components/Services'
 
 import WhyChooseUs from '../components/WhyChooseUs'
 import CTA from '../components/CTA'
+import Hero from '../components/Hero'
+
+
 
 
 
@@ -13,46 +16,7 @@ const HomePage = () => {
     return (
         <div>
             <Navbar />
-
-            {/* hero section */}
-            <section className='bg-gray-50 relative min-h-150 max-md:min-h-125 max-sm:min-h-100 flex items-center'>
-                {/* Background Image with Overlay */}
-                <div className='absolute inset-0'>
-                    <img
-                        src='https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
-                        alt='Chiropractic Care'
-                        className='w-full h-full object-cover'
-                    />
-                    <div className='absolute inset-0 bg-black/60'></div>
-                </div>
-
-                {/* Content */}
-                <div className='relative z-10 max-w-7xl mx-auto px-5 py-16 text-center'>
-                    <div className='flex flex-col items-center gap-6'>
-                        <span className='bg-teal-200 px-5 py-1.5 rounded-full text-sm shadow-sm text-teal-700'>
-                            Professional Chiropractic Care
-                        </span>
-                        <h1 className='text-5xl font-bold text-white'>
-                            Restore Your <span className='text-teal-300'>Health</span> <br />
-                            Improve Your <span className='text-blue-300'>Movement</span>
-                        </h1>
-                        <p className='max-w-xl text-gray-200'>
-                            Experience Personalized chiropractic treatment designed to reduce pain, improve posture,
-                            and support your overall well-being.
-                        </p>
-                        {/* buttons */}
-                        <div className='flex gap-6'>
-                            <button className='bg-teal-500/90 border border-transparent px-5 py-1.5 rounded-full text-lg font-semibold text-white shadow hover:bg-teal-600 hover:cursor-pointer'>
-                                Contact Now
-                            </button>
-                            <button className='border border-white px-5 py-1.5 rounded-full text-lg font-semibold text-white shadow hover:bg-white/10 hover:cursor-pointer'>
-                                Visit Us
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            <Hero />
         
       {/* Chiropractor Section */}
 <section className="bg-white py-20">
