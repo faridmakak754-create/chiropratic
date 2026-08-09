@@ -27,8 +27,8 @@ const HomePage = () => {
             <div className="relative">
                 <div className="rounded-3xl overflow-hidden shadow-xl">
                     <img
-                        src="https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=900&q=80"
-                        alt="Dr. WM Amir"
+                        src="doctor.jpeg"
+                        alt=" WM Amir"
                         className="w-full h-[480px] object-cover"
                     />
                 </div>
@@ -50,7 +50,7 @@ const HomePage = () => {
                 </span>
 
                 <h2 className="text-4xl font-bold text-slate-800 leading-tight mb-3">
-                    Dr. WM Amir
+                    _ WM Amir
                 </h2>
 
                 <p className="text-teal-600 font-medium text-lg mb-6">

@@ -13,7 +13,7 @@ const TreatmentPage = () => {
       description:
         "Chiropractic care focused on supporting patients experiencing migraine-related discomfort.",
       image:
-        "https://images.unsplash.com/photo-1542884748-2b87b36c6b90?auto=format&fit=crop&w=800&q=80",
+        "migraine.jpeg",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const TreatmentPage = () => {
       description:
         "Care focused on improving neck mobility and helping manage neck discomfort caused by tension and strain.",
       image:
-        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80",
+        "neckPain.jpeg",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const TreatmentPage = () => {
       description:
         "Supportive treatment for shoulder stiffness, restricted movement and related discomfort.",
       image:
-        "https://images.unsplash.com/photo-1556760544-74068565f05c?auto=format&fit=crop&w=800&q=80",
+        "Frozen.jpeg",
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const TreatmentPage = () => {
       description:
         "Targeted care for elbow discomfort with a focus on supporting movement and function.",
       image:
-        "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80",
+        "Tennis.jpeg",
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ const TreatmentPage = () => {
       description:
         "Personalized chiropractic care for lower-back and leg discomfort associated with sciatica.",
       image:
-        "https://images.unsplash.com/photo-1517838277536-f5f99be5014f?auto=format&fit=crop&w=800&q=80",
+        "scatica.jpeg",
     },
     {
       id: 6,
@@ -53,7 +53,7 @@ const TreatmentPage = () => {
       description:
         "Supportive treatment aimed at improving knee mobility and managing knee discomfort.",
       image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80",
+        "KneePain.jpeg",
     },
     {
       id: 7,
@@ -61,7 +61,7 @@ const TreatmentPage = () => {
       description:
         "Chiropractic care focused on back mobility and helping manage everyday back discomfort.",
       image:
-        "https://images.unsplash.com/photo-1559757175-7cb057fba93c?auto=format&fit=crop&w=800&q=80",
+        "backPain.jpeg",
     },
     {
       id: 8,
@@ -69,7 +69,7 @@ const TreatmentPage = () => {
       description:
         "Professional assessment and appropriate supportive care for musculoskeletal injuries.",
       image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+        "Discolation.jpeg",
     },
   ];
 

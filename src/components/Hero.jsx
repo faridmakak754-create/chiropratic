@@ -21,7 +21,7 @@ const Hero = () => {
   }, [images.length]);
 
   return (
-    <section className="relative min-h-[600px] overflow-hidden">
+    <section className="relative min-h-150 max-md:min-h-120 max-sm:min-h-100 overflow-hidden">
 
       {/* ================= Background Images ================= */}
       <div className="absolute inset-0">
@@ -40,16 +40,15 @@ const Hero = () => {
         ))}
 
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-slate-950/65"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
 
-        {/* Teal Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/50 to-teal-950/40"></div>
+   
 
       </div>
 
 
       {/* ================= Content ================= */}
-      <div className="relative z-10 max-w-7xl mx-auto px-5 py-28 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-5 py-20 max-md:py-16 max-sm:py-10 text-center">
 
         <div className="flex flex-col items-center gap-6">
 
@@ -86,7 +85,7 @@ const Hero = () => {
 
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-2">
+          <div className="flex flex-col sm:flex-row gap-4 my-2">
 
             <a
               href="/contact"

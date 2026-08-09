@@ -10,7 +10,7 @@ const Services = () => {
       description:
         "Chiropractic care focused on supporting patients experiencing migraine-related discomfort.",
       image:
-        "https://images.unsplash.com/photo-1542884748-2b87b36c6b90?auto=format&fit=crop&w=800&q=80",
+        "migraine.jpeg",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Services = () => {
       description:
         "Care focused on improving neck mobility and helping manage neck discomfort.",
       image:
-        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80",
+        "neckPain.jpeg",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const Services = () => {
       description:
         "Supportive treatment for shoulder stiffness, restricted movement and discomfort.",
       image:
-        "https://images.unsplash.com/photo-1556760544-74068565f05c?auto=format&fit=crop&w=800&q=80",
+        "Frozen.jpeg",
     },
     {
       id: 4,
@@ -34,44 +34,12 @@ const Services = () => {
       description:
         "Targeted care for elbow discomfort with a focus on supporting movement and function.",
       image:
-        "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80",
+        "Tennis.jpeg",
     },
-    {
-      id: 5,
-      title: "Sciatica",
-      description:
-        "Personalized chiropractic care for lower-back and leg discomfort associated with sciatica.",
-      image:
-        "https://images.unsplash.com/photo-1517838277536-f5f99be5014f?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      id: 6,
-      title: "Knee Pain",
-      description:
-        "Supportive treatment aimed at improving knee mobility and managing knee discomfort.",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      id: 7,
-      title: "Back Pain",
-      description:
-        "Chiropractic care focused on back mobility and helping manage everyday back discomfort.",
-      image:
-        "https://images.unsplash.com/photo-1559757175-7cb057fba93c?auto=format&fit=crop&w=800&q=80",
-    },
-    {
-      id: 8,
-      title: "Dislocation",
-      description:
-        "Professional assessment and appropriate supportive care for musculoskeletal injuries.",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    },
+   
   ];
 
-  // Only 4 treatments for Home Page
-  const featuredTreatments = treatments.slice(0, 4);
+
 
   return (
     <section className="py-20 bg-slate-50">
@@ -101,7 +69,7 @@ const Services = () => {
         {/* 4 Featured Treatments */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-          {featuredTreatments.map((treatment) => (
+          {treatments.map((treatment) => (
             <ServiceCard
               key={treatment.id}
               image={treatment.image}
