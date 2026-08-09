@@ -149,7 +149,7 @@ const AboutPage = () => {
 
                             <div className="rounded-3xl overflow-hidden">
                                 <img
-                                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
+                                    src="14.jpeg"
                                     alt="Chiropractic care"
                                     className="w-full h-[450px] object-cover"
                                 />

@@ -33,7 +33,7 @@ const HomePage = () => {
                     />
                 </div>
 
-                <div className="absolute -bottom-6 -right-6 bg-teal-600 text-white rounded-2xl px-6 py-3 shadow-lg">
+                <div className="absolute -bottom-6 -right-6 bg-teal-600 text-white rounded-2xl px-6 py-3 max-md:py-2 max-md:px-4 max-md:-right-4 shadow-lg">
                     <p className="text-sm text-teal-100">
                         Your Trusted
                     </p>

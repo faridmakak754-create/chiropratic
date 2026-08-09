@@ -3,10 +3,10 @@ import { FaPhoneAlt, FaArrowRight } from "react-icons/fa";
 
 const CTA = () => {
   return (
-    <section className="py-16 max-md:py-12 bg-slate-200">
+    <section className="py-16 max-md:py-12 max-sm:py-8 bg-slate-50">
       <div className="max-w-8xl mx-auto px-6">
 
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 to-teal-800 px-8 py-12 md:px-14 md:py-14">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 to-teal-800 px-8 py-10 md:px-14 md:py-14">
 
           {/* Decorative circles */}
           <div className="absolute -top-20 -right-20 w-56 h-56 rounded-full bg-white/5"></div>
@@ -15,18 +15,18 @@ const CTA = () => {
           <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
 
             {/* Content */}
-            <div className="text-center lg:text-left max-w-2xl">
+            <div className="text-center lg:text-left max-w-2xl ">
 
               <span className="inline-block mb-4 px-4 py-2 rounded-full bg-white/10 text-teal-200 text-sm font-semibold">
                 Start Your Care Today
               </span>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
+              <h2 className="text-4xl max-md:text-2xl font-bold text-white leading-tight">
                 Take the First Step Toward
                 <span className="text-teal-300"> Better Mobility</span>
               </h2>
 
-              <p className="mt-4 text-slate-300 leading-7 max-w-xl">
+              <p className="mt-4 max-sm:mt-2 text-slate-300 leading-7 max-w-xl max-sm:text-sm">
                 Have questions about your condition or chiropractic care?
                 Get in touch with WM Amir Chiropractic Health Care to discuss
                 your needs.
