@@ -59,7 +59,7 @@ const Hero = () => {
 
 
           {/* Heading */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          <h1 className=" text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight max-sm:leading-9">
 
             Restore Your{" "}
             <span className="text-teal-300">
@@ -77,7 +77,7 @@ const Hero = () => {
 
 
           {/* Description */}
-          <p className="max-w-2xl text-gray-200 text-base md:text-lg leading-7">
+          <p className="max-w-2xl text-gray-200 text-base md:text-lg leading-7 max-sm:leading-6 ">
             Experience personalized chiropractic treatment designed
             to help manage discomfort, improve mobility, and support
             your physical well-being.
@@ -85,18 +85,18 @@ const Hero = () => {
 
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 my-2">
+          <div className="flex flex-col sm:flex-row gap-4 my-2 max-sm:my-1">
 
             <a
               href="/contact"
-              className="bg-teal-500 px-6 py-3 rounded-full text-base font-semibold text-white shadow-lg hover:bg-teal-600 transition-all duration-300"
+              className="bg-teal-500 px-6 py-3 max-sm:py-2 max-sm:px-5 rounded-full text-base font-semibold text-white shadow-lg hover:bg-teal-600 transition-all duration-300"
             >
               Contact Now
             </a>
 
             <a
               href="#location"
-              className="border border-white/70 px-6 py-3 rounded-full text-base font-semibold text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300"
+              className="border border-white/70 px-6 py-3 max-sm:py-2 max-sm:px-5 rounded-full text-base font-semibold text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300"
             >
               Visit Us
             </a>

@@ -27,7 +27,7 @@ const HomePage = () => {
             <div className="relative">
                 <div className="rounded-3xl overflow-hidden shadow-xl">
                     <img
-                        src="doctor.jpeg"
+                        src="profile.jpeg"
                         alt=" WM Amir"
                         className="w-full h-[480px] object-cover"
                     />

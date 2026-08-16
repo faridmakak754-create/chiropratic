@@ -5,6 +5,8 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import TreatmentPage from './pages/TreatmentPage'
 import GalleryPage from './pages/GalleryPage'
+import PrivacyPolicy from './pages/PrivacyPage'
+import TermsConditions from './pages/TermsConditionPage'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
      <Route path='/contact' element={<ContactPage />} />
      <Route path='/treatments' element={<TreatmentPage />} />
      <Route path='/gallery' element={<GalleryPage />} />
+      <Route path='/privacy' element={<PrivacyPolicy />} />
+      <Route path='/terms' element={<TermsConditions />} />
    </Routes>
     </div>
   )

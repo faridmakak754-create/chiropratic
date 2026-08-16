@@ -155,7 +155,7 @@ const Footer = () => {
             <div className="flex gap-3">
 
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61590708765474"
                 aria-label="Facebook"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 border border-slate-700 transition-all duration-300 hover:scale-110 hover:border-teal-500 hover:bg-teal-500"
               >
@@ -230,7 +230,7 @@ const Footer = () => {
             <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
 
               <Link
-                to="/privacy-policy"
+                to="/privacy"
                 className="text-sm text-slate-400 transition hover:text-teal-400"
               >
                 Privacy Policy
@@ -241,7 +241,7 @@ const Footer = () => {
               </span>
 
               <Link
-                to="/terms-and-conditions"
+                to="/terms"
                 className="text-sm text-slate-400 transition hover:text-teal-400"
               >
                 Terms & Conditions
