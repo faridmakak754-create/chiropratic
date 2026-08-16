@@ -13,9 +13,11 @@ import Footer from "../components/Footer";
 import CTA from "../components/CTA";
 import AboutInfoCard from "../components/AboutInfoCard";
 import PageHero from "../components/PageHero";
+import SEO from "../components/SEO";
 
 
 const AboutPage = () => {
+
 
     const aboutCards = [
         {
@@ -60,18 +62,23 @@ const AboutPage = () => {
 
     return (
         <div className="bg-white">
+            <SEO
+                title="About Us | WM Amir Chiropractic Health Care"
+                description="WM Amir Chiropractic Health Care provides patient-focused chiropractic care with a personalized approach to mobility, comfort and physical well-being in Manipur."
+                canonical="https://yourdomain.com/about"
+            />
 
             <Navbar />
 
             {/* =====================================
           ABOUT HERO
       ====================================== */}
-        <PageHero 
-          badge="About WM Amir"
-          title="Dedicated to Helping You"
-          highlight="Move Better"
-          description="WM Amir Chiropractic Health Care is focused on providing personalized chiropractic care for people experiencing musculoskeletal discomfort and movement-related concerns."
-        />
+            <PageHero
+                badge="About WM Amir"
+                title="Dedicated to Helping You"
+                highlight="Move Better"
+                description="WM Amir Chiropractic Health Care is focused on providing personalized chiropractic care for people experiencing musculoskeletal discomfort and movement-related concerns."
+            />
 
             {/* =====================================
           ABOUT INTRO
@@ -93,21 +100,31 @@ const AboutPage = () => {
                                 Chiropractic Care With a
                                 <span className="text-teal-700"> Personal Approach</span>
                             </h2>
-
                             <p className="mt-6 text-slate-500 leading-8">
-                                At WM Amir Chiropractic Health Care, we understand that
-                                every person and every condition is different. Our goal is
-                                to provide attentive chiropractic care based on your
-                                individual concerns and physical needs.
+                                At WM Amir Chiropractic Health Care, we believe that every patient
+                                deserves care that is tailored to their individual needs. With over
+                                4 years of experience in chiropractic care, Dr. WM Amir is committed
+                                to providing professional and personalized treatment focused on
+                                improving mobility, reducing discomfort, and supporting better
+                                physical function.
                             </p>
 
                             <p className="mt-4 text-slate-500 leading-8">
-                                We focus on supporting mobility, comfort and better
-                                physical function while creating a welcoming environment
-                                where patients can feel comfortable discussing their
-                                concerns.
+                                Every patient's condition and concerns are different, which is why
+                                we take the time to understand your symptoms, daily activities,
+                                and physical needs before providing appropriate care. Our approach
+                                focuses on patient comfort, careful assessment, and individualized
+                                treatment plans designed to support your overall well-being.
                             </p>
 
+                            <p className="mt-4 text-slate-500 leading-8">
+                                With experience in treating a range of musculoskeletal and
+                                mobility-related concerns, Dr. WM Amir aims to create a welcoming
+                                environment where patients feel comfortable discussing their
+                                concerns and receiving the care they need. Our goal is to help you
+                                move better, feel better, and maintain a healthier and more active
+                                lifestyle.
+                            </p>
                             {/* Small highlights */}
                             <div className="mt-8 grid sm:grid-cols-2 gap-4">
 
@@ -149,7 +166,7 @@ const AboutPage = () => {
 
                             <div className="rounded-3xl overflow-hidden">
                                 <img
-                                    src="14.jpeg"
+                                    src="/images/14.jpeg"
                                     alt="Chiropractic care"
                                     className="w-full h-[450px] object-cover"
                                 />

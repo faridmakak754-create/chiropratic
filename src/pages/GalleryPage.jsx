@@ -3,57 +3,64 @@ import NavBar from "../components/Navbar";
 import PageHero from "../components/PageHero";
 import Footer from "../components/Footer";
 import ImageCard from "../components/ImageCard";
+import SEO from "../components/SEO";
 
 const GalleryPage = () => {
 
     const galleryImages = [
         {
             id: 1,
-            image: "/4.jpeg",
+            image: "/images/4.jpeg",
             title: "Our Clinic",
         },
         {
             id: 2,
-            image: "/6.jpeg",
+            image: "/images/6.jpeg",
             title: "Waiting Room",
         },
         {
             id: 3,
-            image: "/7.jpeg",
+            image: "/images/7.jpeg",
             title: "Counter",
         },
         {
             id: 4,
-            image: "/10.jpeg",
+            image: "/images/10.jpeg",
             title: "Clinic",
         },
         {
             id: 5,
-            image: "/12.jpeg",
+            image: "/images/12.jpeg",
             title: "Patient Care",
         },
-         {
+        {
             id: 6,
-            image: "/14.jpeg",
+            image: "/images/14.jpeg",
             title: "Patient Care",
         },
-         {
+        {
             id: 7,
-            image: "/15.jpeg",
+            image: "/images/15.jpeg",
             title: "Back Pain",
         },
         {
             id: 8,
-            image: "/doctor.jpeg",
+            image: "/images/doctor.jpeg",
             title: "Treatment",
         },
-        
+
 
     ];
 
 
     return (
         <div className="bg-white">
+
+            <SEO
+                title="Chiropractic Clinic Gallery in Manipur | WM Amir"
+                description="View the gallery of WM Amir Chiropractic Health Care in Manipur, featuring our clinic environment, facilities and chiropractic care services."
+                canonical="https://yourdomain.com/gallery"
+            />
 
             {/* ================= NAVBAR ================= */}
             <NavBar />

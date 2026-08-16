@@ -1,16 +1,19 @@
 import React from 'react'
 import HomePage from './pages/HomePage'
-import { Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import TreatmentPage from './pages/TreatmentPage'
 import GalleryPage from './pages/GalleryPage'
 import PrivacyPolicy from './pages/PrivacyPage'
 import TermsConditions from './pages/TermsConditionPage'
+import ScrollToTop from './components/ScrolltoTop'
 
 const App = () => {
   return (
     <div>
+ 
+   <ScrollToTop />
    <Routes>
     <Route path='/' element={<HomePage />} />
     <Route path='/about' element={<AboutPage />} />

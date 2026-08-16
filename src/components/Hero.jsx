@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 
 const Hero = () => {
   const images = [
-    "/1.jpeg",
-    "/4.jpeg",
-    "/6.jpeg",
-    "/7.jpeg",
-    "/10.jpeg",
+    "/images/1.jpeg",
+    "/images/4.jpeg",
+    "/images/6.jpeg",
+    "/images/7.jpeg",
+    "/images/10.jpeg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);

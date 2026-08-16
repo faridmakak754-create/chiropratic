@@ -10,7 +10,7 @@ const Services = () => {
       description:
         "Chiropractic care focused on supporting patients experiencing migraine-related discomfort.",
       image:
-        "migraine.jpeg",
+        "/images/migraine.jpeg",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Services = () => {
       description:
         "Care focused on improving neck mobility and helping manage neck discomfort.",
       image:
-        "neckPain.jpeg",
+        "/images/neckPain.jpeg",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const Services = () => {
       description:
         "Supportive treatment for shoulder stiffness, restricted movement and discomfort.",
       image:
-        "Frozen.jpeg",
+        "/images/Frozen.jpeg",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ const Services = () => {
       description:
         "Targeted care for elbow discomfort with a focus on supporting movement and function.",
       image:
-        "Tennis.jpeg",
+        "/images/Tennis.jpeg",
     },
    
   ];

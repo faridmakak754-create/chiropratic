@@ -12,11 +12,19 @@ import NavBar from "../components/Navbar";
 import PageHero from "../components/PageHero";
 import Footer from "../components/Footer";
 import ContactCard from "../components/ContactCard";
+import SEO from "../components/SEO";
 
 
 const ContactPage = () => {
+
   return (
+
     <div className="bg-white">
+      <SEO
+        title="Contact Us | WM Amir Chiropractic Health Care"
+        description="Contact WM Amir Chiropractic Health Care in Manipur for appointments, chiropractic care enquiries and information about our available services."
+        canonical="https://yourdomain.com/contact"
+      />
 
       {/* =====================================================
           NAVBAR

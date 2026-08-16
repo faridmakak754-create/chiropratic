@@ -4,8 +4,11 @@ import PageHero from "../components/PageHero";
 import ServiceCard from "../components/ServiceCard";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
+import SEO from "../components/SEO";
 
 const TreatmentPage = () => {
+
+
   const treatments = [
     {
       id: 1,
@@ -13,7 +16,7 @@ const TreatmentPage = () => {
       description:
         "Chiropractic care focused on supporting patients experiencing migraine-related discomfort.",
       image:
-        "migraine.jpeg",
+        "/images/migraine.jpeg",
     },
     {
       id: 2,
@@ -21,7 +24,7 @@ const TreatmentPage = () => {
       description:
         "Care focused on improving neck mobility and helping manage neck discomfort caused by tension and strain.",
       image:
-        "neckPain.jpeg",
+        "/images/neckPain.jpeg",
     },
     {
       id: 3,
@@ -29,7 +32,7 @@ const TreatmentPage = () => {
       description:
         "Supportive treatment for shoulder stiffness, restricted movement and related discomfort.",
       image:
-        "Frozen.jpeg",
+        "/images/Frozen.jpeg",
     },
     {
       id: 4,
@@ -37,7 +40,7 @@ const TreatmentPage = () => {
       description:
         "Targeted care for elbow discomfort with a focus on supporting movement and function.",
       image:
-        "Tennis.jpeg",
+        "/images/Tennis.jpeg",
     },
     {
       id: 5,
@@ -45,7 +48,7 @@ const TreatmentPage = () => {
       description:
         "Personalized chiropractic care for lower-back and leg discomfort associated with sciatica.",
       image:
-        "scatica.jpeg",
+        "/images/scatica.jpeg",
     },
     {
       id: 6,
@@ -53,7 +56,7 @@ const TreatmentPage = () => {
       description:
         "Supportive treatment aimed at improving knee mobility and managing knee discomfort.",
       image:
-        "KneePain.jpeg",
+        "/images/KneePain.jpeg",
     },
     {
       id: 7,
@@ -61,7 +64,7 @@ const TreatmentPage = () => {
       description:
         "Chiropractic care focused on back mobility and helping manage everyday back discomfort.",
       image:
-        "backPain.jpeg",
+        "/images/backPain.jpeg",
     },
     {
       id: 8,
@@ -69,12 +72,17 @@ const TreatmentPage = () => {
       description:
         "Professional assessment and appropriate supportive care for musculoskeletal injuries.",
       image:
-        "Discolation.jpeg",
+        "/images/Discolation.jpeg",
     },
   ];
 
   return (
     <div className="bg-white">
+      <SEO
+        title="Chiropractic Care Services | WM Amir Chiropractic Health Care"
+        description="Explore chiropractic care services for back pain, neck pain, migraine, sciatica, knee pain and other musculoskeletal concerns at WM Amir Chiropractic Health Care in Manipur."
+        canonical="https://yourdomain.com/treatments"
+      />
 
       {/* ==================================================
           NAVBAR
