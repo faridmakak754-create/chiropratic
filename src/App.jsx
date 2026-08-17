@@ -7,7 +7,7 @@ import TreatmentPage from './pages/TreatmentPage'
 import GalleryPage from './pages/GalleryPage'
 import PrivacyPolicy from './pages/PrivacyPage'
 import TermsConditions from './pages/TermsConditionPage'
-import ScrollToTop from './components/ScrolltoTop'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
