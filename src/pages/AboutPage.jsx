@@ -65,7 +65,7 @@ const AboutPage = () => {
             <SEO
                 title="About Us | WM Amir Chiropractic Health Care"
                 description="WM Amir Chiropractic Health Care provides patient-focused chiropractic care with a personalized approach to mobility, comfort and physical well-being in Manipur."
-                canonical="https://yourdomain.com/about"
+                canonical="https://wmamirchiropractic.online/about"
             />
 
             <Navbar />

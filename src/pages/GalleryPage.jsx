@@ -59,7 +59,7 @@ const GalleryPage = () => {
             <SEO
                 title="Chiropractic Clinic Gallery in Manipur | WM Amir"
                 description="View the gallery of WM Amir Chiropractic Health Care in Manipur, featuring our clinic environment, facilities and chiropractic care services."
-                canonical="https://yourdomain.com/gallery"
+                canonical="https://wmamirchiropractic.online/gallery"
             />
 
             {/* ================= NAVBAR ================= */}

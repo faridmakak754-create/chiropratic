@@ -81,7 +81,7 @@ const TreatmentPage = () => {
       <SEO
         title="Chiropractic Care Services | WM Amir Chiropractic Health Care"
         description="Explore chiropractic care services for back pain, neck pain, migraine, sciatica, knee pain and other musculoskeletal concerns at WM Amir Chiropractic Health Care in Manipur."
-        canonical="https://yourdomain.com/treatments"
+        canonical="https://wmamirchiropractic.online/treatments"
       />
 
       {/* ==================================================

@@ -157,6 +157,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=61590708765474"
                 aria-label="Facebook"
+                target="_blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 border border-slate-700 transition-all duration-300 hover:scale-110 hover:border-teal-500 hover:bg-teal-500"
               >
                 <FaFacebookF className="text-white" />
@@ -165,6 +166,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Instagram"
+                target="_blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 border border-slate-700 transition-all duration-300 hover:scale-110 hover:border-teal-500 hover:bg-teal-500"
               >
                 <FaInstagram className="text-white" />
@@ -173,6 +175,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="X"
+                target="_blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 border border-slate-700 transition-all duration-300 hover:scale-110 hover:border-teal-500 hover:bg-teal-500"
               >
                 <FaXTwitter className="text-white" />
@@ -181,6 +184,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="YouTube"
+                target="blank"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 border border-slate-700 transition-all duration-300 hover:scale-110 hover:border-teal-500 hover:bg-teal-500"
               >
                 <FaYoutube className="text-white" />
