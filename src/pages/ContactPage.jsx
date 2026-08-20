@@ -111,7 +111,7 @@ const ContactPage = () => {
               title="Email Us"
               description="Send us your enquiry"
               actionText="Send Email →"
-              href="mailto:your-email@example.com"
+              href="mailto:wangmayumamir9@gmail.com"
             />
 
 
