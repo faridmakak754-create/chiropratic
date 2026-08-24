@@ -105,7 +105,7 @@ const Footer = () => {
 
               {/* Email */}
               <a
-                href="mailto:info@wmamir.com"
+                href="mailto:wangmayumamir9@gmail.com"
                 className="flex items-start gap-3 transition hover:text-teal-400"
               >
                 <Mail className="mt-1 h-4 w-4 shrink-0 text-teal-400" />
